@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, ititial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+	<script>
+		for(var i = 1; i <= 100; i++) {
+			var num = i;
+			if(i%3 === 0) {
+				num = "Fizz";
+			}
+			if(i%5 === 0) {
+				num = "Buzz";
+			}
+			if(i%3 === 0 && i%5 === 0) {
+				num = "FizzBuzz";
+			}
+			console.log(num);
+		}
+	</script>
+</body>
+</html>
